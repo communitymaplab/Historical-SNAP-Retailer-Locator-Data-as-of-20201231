@@ -1,0 +1,12 @@
+Variable Name,Description
+Similarity Ratio,The fuzzy match similarity score with the snap_retailers_usda_2005-2020 data
+ID,Matched snap_retailers_usda_2005-2020 data ID
+store_id,Matched snap_retailers_usda_2005-2020 data store ID
+store_name,Matched snap_retailers_usda_2005-2020 data store name
+Loc_name,The name of the esri locator used to return a match result
+Status,A code indicating whether the address was matched by ESRI locator (M—Matched. The address is matched. U—Unmatched. The address is not matched. T—Tied. The address has more than one candidate with the same best match score but at different locations.)
+Score,The ESRI locator  match score of the candidate to which the address was matched.
+Match_type,"A code showing how an address was matched by ESRI locator. ( A—Automatically matched or rematched. M—Manually matched or unmatched. If the geocoded feature class is rematched, the field may have the code M when you manually match or unmatch.PP—Pick by Point. The address was matched to the click point chosen by the user during the rematch process.)"
+accuracy,Google geocoder address geometry accuracy (https://developers.google.com/maps/documentation/javascript/geocoding)
+type,Google geocoder address type (https://developers.google.com/maps/documentation/javascript/geocoding)
+status,Google geocoder results status (https://developers.google.com/maps/documentation/javascript/geocoding)
